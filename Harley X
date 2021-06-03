@@ -1,0 +1,1366 @@
+-- Harley X
+
+local Harley3 = Instance.new("ScreenGui")
+local Open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Warning = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local NameBox = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local Items = Instance.new("ScrollingFrame")
+local Cat1 = Instance.new("TextButton")
+local Cat2 = Instance.new("TextButton")
+local Cat3 = Instance.new("TextButton")
+local Cat4 = Instance.new("TextButton")
+local Cat5 = Instance.new("TextButton")
+local MainMods = Instance.new("ScrollingFrame")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local FunMods = Instance.new("ScrollingFrame")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local TextButton_22 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextButton_24 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
+local GrindMods = Instance.new("ScrollingFrame")
+local TextButton_26 = Instance.new("TextButton")
+local TextButton_27 = Instance.new("TextButton")
+local TextButton_28 = Instance.new("TextButton")
+local TextButton_29 = Instance.new("TextButton")
+local TextButton_30 = Instance.new("TextButton")
+local TextButton_31 = Instance.new("TextButton")
+local TextButton_32 = Instance.new("TextButton")
+local TextButton_33 = Instance.new("TextButton")
+local TextButton_34 = Instance.new("TextButton")
+local TextButton_35 = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local Extra = Instance.new("ScrollingFrame")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextButton_36 = Instance.new("TextButton")
+local TextButton_37 = Instance.new("TextButton")
+local TextButton_38 = Instance.new("TextButton")
+local TextButton_39 = Instance.new("TextButton")
+local TextButton_40 = Instance.new("TextButton")
+local TextButton_41 = Instance.new("TextButton")
+local TextButton_42 = Instance.new("TextButton")
+local TextButton_43 = Instance.new("TextButton")
+local TextButton_44 = Instance.new("TextButton")
+local TextButton_45 = Instance.new("TextButton")
+local Credits = Instance.new("ScrollingFrame")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local UpdateNotes = Instance.new("Frame")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_23 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_46 = Instance.new("TextButton")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+
+--Properties:
+
+Harley3.Name = "Harley3"
+Harley3.Parent = game.CoreGui
+Harley3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Open.Name = "Open"
+Open.Parent = Harley3
+Open.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+Open.Position = UDim2.new(0.00455580838, 0, 0.576167107, 0)
+Open.Size = UDim2.new(0, 137, 0, 42)
+Open.Font = Enum.Font.SciFi
+Open.Text = "Activate"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+
+UICorner.Parent = Open
+
+Warning.Name = "Warning"
+Warning.Parent = Harley3
+Warning.BackgroundColor3 = Color3.fromRGB(91, 130, 177)
+Warning.BorderColor3 = Color3.fromRGB(206, 68, 71)
+Warning.BorderSizePixel = 3
+Warning.Position = UDim2.new(2.15368345e-09, 0, 0.00122849806, 0)
+Warning.Size = UDim2.new(0, 304, 0, 422)
+
+TextLabel.Parent = Warning
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 304, 0, 61)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "!! WARNING !!"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Warning
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.15876776, 0)
+TextLabel_2.Size = UDim2.new(0, 304, 0, 161)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "YOU ARE ABOUT TO CLOSE THIS GUI."
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Warning
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.609004736, 0)
+TextLabel_3.Size = UDim2.new(0, 304, 0, 67)
+TextLabel_3.Font = Enum.Font.SciFi
+TextLabel_3.Text = "ARE YOU SURE YOU WANT TO CONTINUE?"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextButton.Parent = Warning
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0, 0, 0.881516576, 0)
+TextButton.Size = UDim2.new(0, 148, 0, 50)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "YES"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = Warning
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.506578922, 0, 0.881516576, 0)
+TextButton_2.Size = UDim2.new(0, 150, 0, 50)
+TextButton_2.Font = Enum.Font.SciFi
+TextButton_2.Text = "NO"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextLabel_4.Parent = Warning
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.388157904, 0, 0.882540107, 0)
+TextLabel_4.Size = UDim2.new(0, 67, 0, 49)
+TextLabel_4.Font = Enum.Font.SciFi
+TextLabel_4.Text = "|"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Warning
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_5.Position = UDim2.new(-0.0822368413, 0, -0.0260663498, 0)
+TextLabel_5.Size = UDim2.new(0, 353, 0, 11)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ""
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+UICorner_2.Parent = TextLabel_5
+
+TextLabel_6.Parent = Warning
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_6.Position = UDim2.new(-0.0822368413, 0, 0.997630298, 0)
+TextLabel_6.Size = UDim2.new(0, 353, 0, 11)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = ""
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+
+UICorner_3.Parent = TextLabel_6
+
+Main.Name = "Main"
+Main.Parent = Harley3
+Main.BackgroundColor3 = Color3.fromRGB(91, 130, 177)
+Main.BorderColor3 = Color3.fromRGB(206, 68, 71)
+Main.BorderSizePixel = 3
+Main.Position = UDim2.new(0.239179954, 0, 0.0110565014, 0)
+Main.Size = UDim2.new(0, 655, 0, 386)
+
+NameBox.Name = "NameBox"
+NameBox.Parent = Main
+NameBox.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+NameBox.BorderSizePixel = 0
+NameBox.Size = UDim2.new(0, 655, 0, 21)
+
+TextLabel_7.Parent = NameBox
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(0, 130, 0, 21)
+TextLabel_7.Font = Enum.Font.SciFi
+TextLabel_7.Text = "Harley X"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+TextButton_3.Parent = NameBox
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.943511426, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0, 37, 0, 21)
+TextButton_3.Font = Enum.Font.SciFi
+TextButton_3.Text = "X"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = NameBox
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0.887022853, 0, 0, 0)
+TextButton_4.Size = UDim2.new(0, 37, 0, 21)
+TextButton_4.Font = Enum.Font.SciFi
+TextButton_4.Text = "-"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = NameBox
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.Position = UDim2.new(0.22595422, 0, 0, 0)
+TextButton_5.Size = UDim2.new(0, 145, 0, 21)
+TextButton_5.Font = Enum.Font.SciFi
+TextButton_5.Text = "Update Notes"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+TextButton_5.MouseButton1Down:Connect(function()
+	UpdateNotes.Visible = true
+	Main.Visible = false
+end)
+
+TextLabel_8.Parent = NameBox
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0992366448, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 129, 0, 21)
+TextLabel_8.Font = Enum.Font.SciFi
+TextLabel_8.Text = "|"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+Items.Name = "Items"
+Items.Parent = Main
+Items.Active = true
+Items.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+Items.BorderSizePixel = 0
+Items.Position = UDim2.new(0, 0, 0.0544041432, 0)
+Items.Size = UDim2.new(0, 130, 0, 365)
+Items.ScrollingEnabled = false
+
+Cat1.Name = "Cat1"
+Cat1.Parent = Items
+Cat1.BackgroundColor3 = Color3.fromRGB(91, 130, 177)
+Cat1.BorderSizePixel = 0
+Cat1.Position = UDim2.new(0, 0, 0.0489782207, 0)
+Cat1.Size = UDim2.new(0, 118, 0, 40)
+Cat1.Font = Enum.Font.SciFi
+Cat1.Text = "Main Mods"
+Cat1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cat1.TextScaled = true
+Cat1.TextSize = 14.000
+Cat1.TextWrapped = true
+
+Cat2.Name = "Cat2"
+Cat2.Parent = Items
+Cat2.BackgroundColor3 = Color3.fromRGB(91, 130, 177)
+Cat2.BorderSizePixel = 0
+Cat2.Position = UDim2.new(0, 0, 0.126698434, 0)
+Cat2.Size = UDim2.new(0, 118, 0, 40)
+Cat2.Font = Enum.Font.SciFi
+Cat2.Text = "Fun Mods"
+Cat2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cat2.TextScaled = true
+Cat2.TextSize = 14.000
+Cat2.TextWrapped = true
+
+Cat3.Name = "Cat3"
+Cat3.Parent = Items
+Cat3.BackgroundColor3 = Color3.fromRGB(91, 130, 177)
+Cat3.BorderSizePixel = 0
+Cat3.Position = UDim2.new(0, 0, 0.205713987, 0)
+Cat3.Size = UDim2.new(0, 118, 0, 40)
+Cat3.Font = Enum.Font.SciFi
+Cat3.Text = "Grind Mods"
+Cat3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cat3.TextScaled = true
+Cat3.TextSize = 14.000
+Cat3.TextWrapped = true
+
+Cat4.Name = "Cat4"
+Cat4.Parent = Items
+Cat4.BackgroundColor3 = Color3.fromRGB(91, 130, 177)
+Cat4.BorderSizePixel = 0
+Cat4.Position = UDim2.new(0, 0, 0.28472954, 0)
+Cat4.Size = UDim2.new(0, 118, 0, 40)
+Cat4.Font = Enum.Font.SciFi
+Cat4.Text = "Extras"
+Cat4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cat4.TextScaled = true
+Cat4.TextSize = 14.000
+Cat4.TextWrapped = true
+
+Cat5.Name = "Cat5"
+Cat5.Parent = Items
+Cat5.BackgroundColor3 = Color3.fromRGB(91, 130, 177)
+Cat5.BorderSizePixel = 0
+Cat5.Position = UDim2.new(0, 0, 0.361154407, 0)
+Cat5.Size = UDim2.new(0, 118, 0, 40)
+Cat5.Font = Enum.Font.SciFi
+Cat5.Text = "Credits"
+Cat5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cat5.TextScaled = true
+Cat5.TextSize = 14.000
+Cat5.TextWrapped = true
+
+MainMods.Name = "MainMods"
+MainMods.Parent = Main
+MainMods.Active = true
+MainMods.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainMods.BackgroundTransparency = 1.000
+MainMods.Position = UDim2.new(0.213740453, 0, 0.07772021, 0)
+MainMods.Size = UDim2.new(0, 505, 0, 346)
+MainMods.Visible = false
+MainMods.ScrollBarThickness = 0
+MainMods.ScrollingEnabled = false
+
+TextLabel_9.Parent = MainMods
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.859405935, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 65, 0, 23)
+TextLabel_9.Font = Enum.Font.SciFi
+TextLabel_9.Text = "Pick Area 1"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
+
+TextButton_6.Parent = MainMods
+TextButton_6.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.0297029708, 0, 0.101036265, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.SciFi
+TextButton_6.Text = "Nothing. ."
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = MainMods
+TextButton_7.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.0297029708, 0, 0.186528504, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.SciFi
+TextButton_7.Text = "Nothing. ."
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = MainMods
+TextButton_8.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.0297029708, 0, 0.273316056, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.SciFi
+TextButton_8.Text = "Nothing. ."
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = MainMods
+TextButton_9.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.0297029708, 0, 0.361398965, 0)
+TextButton_9.Size = UDim2.new(0, 200, 0, 50)
+TextButton_9.Font = Enum.Font.SciFi
+TextButton_9.Text = "Nothing. ."
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+TextButton_10.Parent = MainMods
+TextButton_10.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.0297029708, 0, 0.0155440345, 0)
+TextButton_10.Size = UDim2.new(0, 200, 0, 50)
+TextButton_10.Font = Enum.Font.SciFi
+TextButton_10.Text = "Ragdoll"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+TextButton_10.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine%20Loader"))()
+end)
+
+TextButton_11.Parent = MainMods
+TextButton_11.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0.46336633, 0, 0.101036265, 0)
+TextButton_11.Size = UDim2.new(0, 200, 0, 50)
+TextButton_11.Font = Enum.Font.SciFi
+TextButton_11.Text = "Nothing. ."
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+TextButton_12.Parent = MainMods
+TextButton_12.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.46336633, 0, 0.273316056, 0)
+TextButton_12.Size = UDim2.new(0, 200, 0, 50)
+TextButton_12.Font = Enum.Font.SciFi
+TextButton_12.Text = "Nothing. ."
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+
+TextButton_13.Parent = MainMods
+TextButton_13.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0.46336633, 0, 0.361398965, 0)
+TextButton_13.Size = UDim2.new(0, 200, 0, 50)
+TextButton_13.Font = Enum.Font.SciFi
+TextButton_13.Text = "Nothing. ."
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 14.000
+TextButton_13.TextWrapped = true
+
+TextButton_14.Parent = MainMods
+TextButton_14.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0.46336633, 0, 0.0155440345, 0)
+TextButton_14.Size = UDim2.new(0, 200, 0, 50)
+TextButton_14.Font = Enum.Font.SciFi
+TextButton_14.Text = "Nothing. ."
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 14.000
+TextButton_14.TextWrapped = true
+
+TextButton_15.Parent = MainMods
+TextButton_15.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(0.46336633, 0, 0.186528504, 0)
+TextButton_15.Size = UDim2.new(0, 200, 0, 50)
+TextButton_15.Font = Enum.Font.SciFi
+TextButton_15.Text = "Nothing. ."
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 14.000
+TextButton_15.TextWrapped = true
+
+FunMods.Name = "FunMods"
+FunMods.Parent = Main
+FunMods.Active = true
+FunMods.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FunMods.BackgroundTransparency = 1.000
+FunMods.Position = UDim2.new(0.213740453, 0, 0.07772021, 0)
+FunMods.Size = UDim2.new(0, 505, 0, 346)
+FunMods.Visible = false
+FunMods.ScrollBarThickness = 0
+FunMods.ScrollingEnabled = false
+
+TextLabel_10.Parent = FunMods
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.859405935, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 65, 0, 23)
+TextLabel_10.Font = Enum.Font.SciFi
+TextLabel_10.Text = "Pick Area 2"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 14.000
+
+TextButton_16.Parent = FunMods
+TextButton_16.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(0.0297029708, 0, 0.101036265, 0)
+TextButton_16.Size = UDim2.new(0, 200, 0, 50)
+TextButton_16.Font = Enum.Font.SciFi
+TextButton_16.Text = "MM2"
+TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.TextScaled = true
+TextButton_16.TextSize = 14.000
+TextButton_16.TextWrapped = true
+TextButton_16.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+TextButton_17.Parent = FunMods
+TextButton_17.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(0.0297029708, 0, 0.186528504, 0)
+TextButton_17.Size = UDim2.new(0, 200, 0, 50)
+TextButton_17.Font = Enum.Font.SciFi
+TextButton_17.Text = "Assassin"
+TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.TextScaled = true
+TextButton_17.TextSize = 14.000
+TextButton_17.TextWrapped = true
+TextButton_17.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/bockatta/Shitter/main/Loader'))();
+end)
+
+TextButton_18.Parent = FunMods
+TextButton_18.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Position = UDim2.new(0.0297029708, 0, 0.273316056, 0)
+TextButton_18.Size = UDim2.new(0, 200, 0, 50)
+TextButton_18.Font = Enum.Font.SciFi
+TextButton_18.Text = "Fake VR"
+TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.TextScaled = true
+TextButton_18.TextSize = 14.000
+TextButton_18.TextWrapped = true
+TextButton_18.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Bomby324/VRFake/main/GetVr'))();
+end)
+
+TextButton_19.Parent = FunMods
+TextButton_19.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Position = UDim2.new(0.0297029708, 0, 0.361398965, 0)
+TextButton_19.Size = UDim2.new(0, 200, 0, 50)
+TextButton_19.Font = Enum.Font.SciFi
+TextButton_19.Text = "Lumber Tycoon 2"
+TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.TextScaled = true
+TextButton_19.TextSize = 14.000
+TextButton_19.TextWrapped = true
+TextButton_19.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://drizzy.wtf//PinkX/Script"))()
+end)
+
+TextButton_20.Parent = FunMods
+TextButton_20.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Position = UDim2.new(0.0297029708, 0, 0.0155440345, 0)
+TextButton_20.Size = UDim2.new(0, 200, 0, 50)
+TextButton_20.Font = Enum.Font.SciFi
+TextButton_20.Text = "Bad Business"
+TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.TextScaled = true
+TextButton_20.TextSize = 14.000
+TextButton_20.TextWrapped = true
+TextButton_20.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+end)
+
+TextButton_21.Parent = FunMods
+TextButton_21.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_21.BorderSizePixel = 0
+TextButton_21.Position = UDim2.new(0.46336633, 0, 0.101036265, 0)
+TextButton_21.Size = UDim2.new(0, 200, 0, 50)
+TextButton_21.Font = Enum.Font.SciFi
+TextButton_21.Text = "Nothing. ."
+TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.TextScaled = true
+TextButton_21.TextSize = 14.000
+TextButton_21.TextWrapped = true
+
+TextButton_22.Parent = FunMods
+TextButton_22.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_22.BorderSizePixel = 0
+TextButton_22.Position = UDim2.new(0.46336633, 0, 0.273316056, 0)
+TextButton_22.Size = UDim2.new(0, 200, 0, 50)
+TextButton_22.Font = Enum.Font.SciFi
+TextButton_22.Text = "Nothing. ."
+TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.TextScaled = true
+TextButton_22.TextSize = 14.000
+TextButton_22.TextWrapped = true
+
+TextButton_23.Parent = FunMods
+TextButton_23.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_23.BorderSizePixel = 0
+TextButton_23.Position = UDim2.new(0.46336633, 0, 0.361398965, 0)
+TextButton_23.Size = UDim2.new(0, 200, 0, 50)
+TextButton_23.Font = Enum.Font.SciFi
+TextButton_23.Text = "Nothing. ."
+TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.TextScaled = true
+TextButton_23.TextSize = 14.000
+TextButton_23.TextWrapped = true
+
+TextButton_24.Parent = FunMods
+TextButton_24.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_24.BorderSizePixel = 0
+TextButton_24.Position = UDim2.new(0.46336633, 0, 0.0155440345, 0)
+TextButton_24.Size = UDim2.new(0, 200, 0, 50)
+TextButton_24.Font = Enum.Font.SciFi
+TextButton_24.Text = "Admin"
+TextButton_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.TextScaled = true
+TextButton_24.TextSize = 14.000
+TextButton_24.TextWrapped = true
+TextButton_24.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/Caniwq2N'), true))()
+end)
+
+TextButton_25.Parent = FunMods
+TextButton_25.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_25.BorderSizePixel = 0
+TextButton_25.Position = UDim2.new(0.46336633, 0, 0.186528504, 0)
+TextButton_25.Size = UDim2.new(0, 200, 0, 50)
+TextButton_25.Font = Enum.Font.SciFi
+TextButton_25.Text = "Nothing. ."
+TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.TextScaled = true
+TextButton_25.TextSize = 14.000
+TextButton_25.TextWrapped = true
+
+GrindMods.Name = "GrindMods"
+GrindMods.Parent = Main
+GrindMods.Active = true
+GrindMods.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GrindMods.BackgroundTransparency = 1.000
+GrindMods.Position = UDim2.new(0.213740453, 0, 0.07772021, 0)
+GrindMods.Size = UDim2.new(0, 505, 0, 346)
+GrindMods.Visible = false
+GrindMods.ScrollBarThickness = 0
+GrindMods.ScrollingEnabled = false
+
+TextButton_26.Parent = GrindMods
+TextButton_26.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_26.BorderSizePixel = 0
+TextButton_26.Position = UDim2.new(0.0297029708, 0, 0.101036265, 0)
+TextButton_26.Size = UDim2.new(0, 200, 0, 50)
+TextButton_26.Font = Enum.Font.SciFi
+TextButton_26.Text = "BGS"
+TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.TextScaled = true
+TextButton_26.TextSize = 14.000
+TextButton_26.TextWrapped = true
+TextButton_26.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Bomby324/BGS/main/GetBGS'), true))()
+end)
+
+TextButton_27.Parent = GrindMods
+TextButton_27.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_27.BorderSizePixel = 0
+TextButton_27.Position = UDim2.new(0.0297029708, 0, 0.186528504, 0)
+TextButton_27.Size = UDim2.new(0, 200, 0, 50)
+TextButton_27.Font = Enum.Font.SciFi
+TextButton_27.Text = "Bloxburg"
+TextButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.TextScaled = true
+TextButton_27.TextSize = 14.000
+TextButton_27.TextWrapped = true
+TextButton_27.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Bomby324/Bloxburg/main/GetBloxburg'), true))()
+end)
+
+TextButton_28.Parent = GrindMods
+TextButton_28.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_28.BorderSizePixel = 0
+TextButton_28.Position = UDim2.new(0.0297029708, 0, 0.273316056, 0)
+TextButton_28.Size = UDim2.new(0, 200, 0, 50)
+TextButton_28.Font = Enum.Font.SciFi
+TextButton_28.Text = "Adopt Me"
+TextButton_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.TextScaled = true
+TextButton_28.TextSize = 14.000
+TextButton_28.TextWrapped = true
+TextButton_27.MouseButton1Down:Connect(function()
+	game:GetService("Players").LocalPlayer:Kick("Why the heck are you trying to cheat in this game?")
+end)
+
+
+TextButton_29.Parent = GrindMods
+TextButton_29.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_29.BorderSizePixel = 0
+TextButton_29.Position = UDim2.new(0.0297029708, 0, 0.361398965, 0)
+TextButton_29.Size = UDim2.new(0, 200, 0, 50)
+TextButton_29.Font = Enum.Font.SciFi
+TextButton_29.Text = "Nothing. ."
+TextButton_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.TextScaled = true
+TextButton_29.TextSize = 14.000
+TextButton_29.TextWrapped = true
+
+TextButton_30.Parent = GrindMods
+TextButton_30.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_30.BorderSizePixel = 0
+TextButton_30.Position = UDim2.new(0.0297029708, 0, 0.0155440345, 0)
+TextButton_30.Size = UDim2.new(0, 200, 0, 50)
+TextButton_30.Font = Enum.Font.SciFi
+TextButton_30.Text = "Jailbreak"
+TextButton_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_30.TextScaled = true
+TextButton_30.TextSize = 14.000
+TextButton_30.TextWrapped = true
+TextButton_30.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+end)
+
+
+TextButton_31.Parent = GrindMods
+TextButton_31.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_31.BorderSizePixel = 0
+TextButton_31.Position = UDim2.new(0.46336633, 0, 0.101036265, 0)
+TextButton_31.Size = UDim2.new(0, 200, 0, 50)
+TextButton_31.Font = Enum.Font.SciFi
+TextButton_31.Text = "Nothing. ."
+TextButton_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_31.TextScaled = true
+TextButton_31.TextSize = 14.000
+TextButton_31.TextWrapped = true
+
+TextButton_32.Parent = GrindMods
+TextButton_32.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_32.BorderSizePixel = 0
+TextButton_32.Position = UDim2.new(0.46336633, 0, 0.273316056, 0)
+TextButton_32.Size = UDim2.new(0, 200, 0, 50)
+TextButton_32.Font = Enum.Font.SciFi
+TextButton_32.Text = "Nothing. ."
+TextButton_32.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_32.TextScaled = true
+TextButton_32.TextSize = 14.000
+TextButton_32.TextWrapped = true
+
+TextButton_33.Parent = GrindMods
+TextButton_33.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_33.BorderSizePixel = 0
+TextButton_33.Position = UDim2.new(0.46336633, 0, 0.361398965, 0)
+TextButton_33.Size = UDim2.new(0, 200, 0, 50)
+TextButton_33.Font = Enum.Font.SciFi
+TextButton_33.Text = "Nothing. ."
+TextButton_33.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_33.TextScaled = true
+TextButton_33.TextSize = 14.000
+TextButton_33.TextWrapped = true
+
+TextButton_34.Parent = GrindMods
+TextButton_34.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_34.BorderSizePixel = 0
+TextButton_34.Position = UDim2.new(0.46336633, 0, 0.0155440345, 0)
+TextButton_34.Size = UDim2.new(0, 200, 0, 50)
+TextButton_34.Font = Enum.Font.SciFi
+TextButton_34.Text = "Nothing. ."
+TextButton_34.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_34.TextScaled = true
+TextButton_34.TextSize = 14.000
+TextButton_34.TextWrapped = true
+
+TextButton_35.Parent = GrindMods
+TextButton_35.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_35.BorderSizePixel = 0
+TextButton_35.Position = UDim2.new(0.46336633, 0, 0.186528504, 0)
+TextButton_35.Size = UDim2.new(0, 200, 0, 50)
+TextButton_35.Font = Enum.Font.SciFi
+TextButton_35.Text = "Nothing. ."
+TextButton_35.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_35.TextScaled = true
+TextButton_35.TextSize = 14.000
+TextButton_35.TextWrapped = true
+
+TextLabel_11.Parent = GrindMods
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.859405935, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 65, 0, 23)
+TextLabel_11.Font = Enum.Font.SciFi
+TextLabel_11.Text = "Pick Area 3"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 14.000
+
+Extra.Name = "Extra"
+Extra.Parent = Main
+Extra.Active = true
+Extra.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Extra.BackgroundTransparency = 1.000
+Extra.Position = UDim2.new(0.213740453, 0, 0.07772021, 0)
+Extra.Size = UDim2.new(0, 505, 0, 346)
+Extra.Visible = false
+Extra.ScrollBarThickness = 0
+Extra.ScrollingEnabled = false
+
+TextLabel_12.Parent = Extra
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.859405935, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 65, 0, 23)
+TextLabel_12.Font = Enum.Font.SciFi
+TextLabel_12.Text = "Pick Area 4"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextSize = 14.000
+
+TextButton_36.Parent = Extra
+TextButton_36.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_36.BorderSizePixel = 0
+TextButton_36.Position = UDim2.new(0.0297029708, 0, 0.101036265, 0)
+TextButton_36.Size = UDim2.new(0, 200, 0, 50)
+TextButton_36.Font = Enum.Font.SciFi
+TextButton_36.Text = "Funky Friday Autoplayer"
+TextButton_36.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_36.TextScaled = true
+TextButton_36.TextSize = 14.000
+TextButton_36.TextWrapped = true
+TextButton_36.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+
+TextButton_37.Parent = Extra
+TextButton_37.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_37.BorderSizePixel = 0
+TextButton_37.Position = UDim2.new(0.0297029708, 0, 0.186528504, 0)
+TextButton_37.Size = UDim2.new(0, 200, 0, 50)
+TextButton_37.Font = Enum.Font.SciFi
+TextButton_37.Text = "Nothing. ."
+TextButton_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_37.TextScaled = true
+TextButton_37.TextSize = 14.000
+TextButton_37.TextWrapped = true
+
+TextButton_38.Parent = Extra
+TextButton_38.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_38.BorderSizePixel = 0
+TextButton_38.Position = UDim2.new(0.0297029708, 0, 0.273316056, 0)
+TextButton_38.Size = UDim2.new(0, 200, 0, 50)
+TextButton_38.Font = Enum.Font.SciFi
+TextButton_38.Text = "Nothing. ."
+TextButton_38.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_38.TextScaled = true
+TextButton_38.TextSize = 14.000
+TextButton_38.TextWrapped = true
+
+TextButton_39.Parent = Extra
+TextButton_39.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_39.BorderSizePixel = 0
+TextButton_39.Position = UDim2.new(0.0297029708, 0, 0.361398965, 0)
+TextButton_39.Size = UDim2.new(0, 200, 0, 50)
+TextButton_39.Font = Enum.Font.SciFi
+TextButton_39.Text = "Nothing. ."
+TextButton_39.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_39.TextScaled = true
+TextButton_39.TextSize = 14.000
+TextButton_39.TextWrapped = true
+
+TextButton_40.Parent = Extra
+TextButton_40.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_40.BorderSizePixel = 0
+TextButton_40.Position = UDim2.new(0.0297029708, 0, 0.0155440345, 0)
+TextButton_40.Size = UDim2.new(0, 200, 0, 50)
+TextButton_40.Font = Enum.Font.SciFi
+TextButton_40.Text = "Fix Fake VR"
+TextButton_40.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_40.TextScaled = true
+TextButton_40.TextSize = 14.000
+TextButton_40.TextWrapped = true
+TextButton_40.MouseButton1Down:Connect(function()
+	game["Run Service"].RenderStepped:connect(function()
+		settings().Physics.AllowSleep = false
+		setsimulationradius(math.hugemath.huge,math.hugemath.huge)
+		print('Fixed')
+		
+	end)
+end)
+
+TextButton_41.Parent = Extra
+TextButton_41.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_41.BorderSizePixel = 0
+TextButton_41.Position = UDim2.new(0.46336633, 0, 0.101036265, 0)
+TextButton_41.Size = UDim2.new(0, 200, 0, 50)
+TextButton_41.Font = Enum.Font.SciFi
+TextButton_41.Text = "Nothing. ."
+TextButton_41.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_41.TextScaled = true
+TextButton_41.TextSize = 14.000
+TextButton_41.TextWrapped = true
+
+TextButton_42.Parent = Extra
+TextButton_42.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_42.BorderSizePixel = 0
+TextButton_42.Position = UDim2.new(0.46336633, 0, 0.273316056, 0)
+TextButton_42.Size = UDim2.new(0, 200, 0, 50)
+TextButton_42.Font = Enum.Font.SciFi
+TextButton_42.Text = "Nothing. ."
+TextButton_42.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_42.TextScaled = true
+TextButton_42.TextSize = 14.000
+TextButton_42.TextWrapped = true
+
+TextButton_43.Parent = Extra
+TextButton_43.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_43.BorderSizePixel = 0
+TextButton_43.Position = UDim2.new(0.46336633, 0, 0.361398965, 0)
+TextButton_43.Size = UDim2.new(0, 200, 0, 50)
+TextButton_43.Font = Enum.Font.SciFi
+TextButton_43.Text = "Nothing. ."
+TextButton_43.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_43.TextScaled = true
+TextButton_43.TextSize = 14.000
+TextButton_43.TextWrapped = true
+
+TextButton_44.Parent = Extra
+TextButton_44.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_44.BorderSizePixel = 0
+TextButton_44.Position = UDim2.new(0.46336633, 0, 0.0155440345, 0)
+TextButton_44.Size = UDim2.new(0, 200, 0, 50)
+TextButton_44.Font = Enum.Font.SciFi
+TextButton_44.Text = "Nothing. ."
+TextButton_44.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_44.TextScaled = true
+TextButton_44.TextSize = 14.000
+TextButton_44.TextWrapped = true
+
+TextButton_45.Parent = Extra
+TextButton_45.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextButton_45.BorderSizePixel = 0
+TextButton_45.Position = UDim2.new(0.46336633, 0, 0.186528504, 0)
+TextButton_45.Size = UDim2.new(0, 200, 0, 50)
+TextButton_45.Font = Enum.Font.SciFi
+TextButton_45.Text = "Nothing. ."
+TextButton_45.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_45.TextScaled = true
+TextButton_45.TextSize = 14.000
+TextButton_45.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.Active = true
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.213740453, 0, 0.07772021, 0)
+Credits.Size = UDim2.new(0, 505, 0, 346)
+Credits.Visible = false
+Credits.ScrollBarThickness = 0
+Credits.ScrollingEnabled = false
+
+TextLabel_13.Parent = Credits
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.23366338, 0, -0.00388601026, 0)
+TextLabel_13.Size = UDim2.new(0, 247, 0, 60)
+TextLabel_13.Font = Enum.Font.SciFi
+TextLabel_13.Text = "Credits"
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = Credits
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.354455441, 0, 0.387802303, 0)
+TextLabel_14.Size = UDim2.new(0, 125, 0, 56)
+TextLabel_14.Font = Enum.Font.SciFi
+TextLabel_14.Text = "~ End ~"
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+TextLabel_15.Parent = Credits
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.306930691, 0, 0.119927138, 0)
+TextLabel_15.Size = UDim2.new(0, 172, 0, 57)
+TextLabel_15.Font = Enum.Font.SciFi
+TextLabel_15.Text = "- Neko Hub"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+TextLabel_16.Parent = Credits
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.23366338, 0, 0.0375647657, 0)
+TextLabel_16.Size = UDim2.new(0, 247, 0, 60)
+TextLabel_16.Font = Enum.Font.SciFi
+TextLabel_16.Text = "- - -"
+TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+TextLabel_17.Parent = Credits
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.306930691, 0, 0.198942691, 0)
+TextLabel_17.Size = UDim2.new(0, 172, 0, 57)
+TextLabel_17.Font = Enum.Font.SciFi
+TextLabel_17.Text = "- SynapseX"
+TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
+
+TextLabel_18.Parent = Credits
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.306930691, 0, 0.275367558, 0)
+TextLabel_18.Size = UDim2.new(0, 172, 0, 57)
+TextLabel_18.Font = Enum.Font.SciFi
+TextLabel_18.Text = "- Harley Quinn"
+TextLabel_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+
+UpdateNotes.Name = "UpdateNotes"
+UpdateNotes.Parent = Harley3
+UpdateNotes.BackgroundColor3 = Color3.fromRGB(91, 130, 177)
+UpdateNotes.BorderColor3 = Color3.fromRGB(206, 68, 71)
+UpdateNotes.BorderSizePixel = 3
+UpdateNotes.Position = UDim2.new(0.517843604, 0, 0.533169568, 0)
+UpdateNotes.Size = UDim2.new(0, 538, 0, 296)
+
+TextLabel_19.Parent = UpdateNotes
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Size = UDim2.new(0, 538, 0, 26)
+TextLabel_19.Font = Enum.Font.SciFi
+TextLabel_19.Text = "Harley X | Update Notes"
+TextLabel_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+
+TextLabel_20.Parent = UpdateNotes
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.256505579, 0, 0.202702701, 0)
+TextLabel_20.Size = UDim2.new(0, 262, 0, 45)
+TextLabel_20.Font = Enum.Font.SciFi
+TextLabel_20.Text = "- 6/4/2021: Released"
+TextLabel_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextWrapped = true
+
+TextLabel_21.Parent = UpdateNotes
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0, 0, 0.913621247, 0)
+TextLabel_21.Size = UDim2.new(0, 66, 0, 25)
+TextLabel_21.Font = Enum.Font.SciFi
+TextLabel_21.Text = "v1.0"
+TextLabel_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextWrapped = true
+
+TextLabel_22.Parent = UpdateNotes
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_22.Position = UDim2.new(-0.0576208197, 0, -0.0371621624, 0)
+TextLabel_22.Size = UDim2.new(0, 598, 0, 12)
+TextLabel_22.Font = Enum.Font.SciFi
+TextLabel_22.Text = ""
+TextLabel_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.TextSize = 14.000
+
+UICorner_4.Parent = TextLabel_22
+
+TextLabel_23.Parent = UpdateNotes
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_23.Position = UDim2.new(-0.0576208197, 0, 1, 0)
+TextLabel_23.Size = UDim2.new(0, 598, 0, 12)
+TextLabel_23.Font = Enum.Font.SciFi
+TextLabel_23.Text = ""
+TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.TextSize = 14.000
+
+UICorner_5.Parent = TextLabel_23
+
+TextButton_46.Parent = UpdateNotes
+TextButton_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_46.BackgroundTransparency = 1.000
+TextButton_46.Position = UDim2.new(0.940520406, 0, 0.00337839127, 0)
+TextButton_46.Size = UDim2.new(0, 32, 0, 26)
+TextButton_46.Font = Enum.Font.SciFi
+TextButton_46.Text = "-"
+TextButton_46.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_46.TextSize = 50.000
+TextButton_46.TextWrapped = true
+TextButton_46.MouseButton1Down:Connect(function()
+	UpdateNotes.Visible = false
+	Main.Visible = true
+end)
+
+TextLabel_24.Parent = UpdateNotes
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(0.256505579, 0, 0.354729712, 0)
+TextLabel_24.Size = UDim2.new(0, 262, 0, 45)
+TextLabel_24.Font = Enum.Font.SciFi
+TextLabel_24.Text = ""
+TextLabel_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
+
+TextLabel_25.Parent = UpdateNotes
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(0.256505579, 0, 0.506756723, 0)
+TextLabel_25.Size = UDim2.new(0, 262, 0, 45)
+TextLabel_25.Font = Enum.Font.SciFi
+TextLabel_25.Text = ""
+TextLabel_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.TextScaled = true
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextWrapped = true
+
+TextLabel_26.Parent = UpdateNotes
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.BorderSizePixel = 0
+TextLabel_26.Position = UDim2.new(0.256505579, 0, 0.668918848, 0)
+TextLabel_26.Size = UDim2.new(0, 262, 0, 45)
+TextLabel_26.Font = Enum.Font.SciFi
+TextLabel_26.Text = ""
+TextLabel_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_26.TextScaled = true
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextWrapped = true
+
+TextLabel_27.Parent = UpdateNotes
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.BorderSizePixel = 0
+TextLabel_27.Position = UDim2.new(0.256505579, 0, 0.820945859, 0)
+TextLabel_27.Size = UDim2.new(0, 262, 0, 45)
+TextLabel_27.Font = Enum.Font.SciFi
+TextLabel_27.Text = ""
+TextLabel_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.TextScaled = true
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextWrapped = true
+
+-- Scripts:
+
+local function IXFQVEH_fake_script() -- Open.Drag 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(IXFQVEH_fake_script)()
+local function XEGDG_fake_script() -- Open.DefineOpen 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.Parent.Warning.Visible = false
+	script.Parent.Parent.Main.Visible = false
+	script.Parent.Parent.UpdateNotes.Visible = false
+	
+	script.Parent.MouseButton2Down:Connect(function()
+		script.Parent.Parent.Main.Visible = true
+		script.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(XEGDG_fake_script)()
+local function FSVBLKW_fake_script() -- TextButton.DefineYes 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		game.Lighting.Blur.Enabled = false
+		
+		print('Destroyed Harley X')
+	end)
+end
+coroutine.wrap(FSVBLKW_fake_script)()
+local function ZSZXI_fake_script() -- TextButton_2.DefineNo 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Main.Visible = true
+		game.Lighting.Blur.Enabled = false
+	end)
+end
+coroutine.wrap(ZSZXI_fake_script)()
+local function CKRR_fake_script() -- Warning.Drag 
+	local script = Instance.new('LocalScript', Warning)
+
+	script.Parent.Active = true
+	script.Parent.Selectable = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(CKRR_fake_script)()
+local function GONM_fake_script() -- TextButton_3.DefineClo 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Warning.Visible = true
+		game.Lighting.Blur.Enabled = true
+	end)
+end
+coroutine.wrap(GONM_fake_script)()
+local function EEYJM_fake_script() -- TextButton_4.DefineMin 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Open.Visible = true
+	end)
+end
+coroutine.wrap(EEYJM_fake_script)()
+local function IEZNPZO_fake_script() -- TextButton_5.DefineUpd 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Lighting.Blur.Enabled = true
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.UpdateNotes.Visible = true
+	end)
+end
+coroutine.wrap(IEZNPZO_fake_script)()
+local function FRDFAKC_fake_script() -- Cat1.DefineCat1 
+	local script = Instance.new('LocalScript', Cat1)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainMods.Visible = true
+		script.Parent.Parent.Parent.FunMods.Visible = false
+		script.Parent.Parent.Parent.GrindMods.Visible = false
+		script.Parent.Parent.Parent.Extra.Visible = false
+		script.Parent.Parent.Parent.Credits.Visible = false
+	end)
+end
+coroutine.wrap(FRDFAKC_fake_script)()
+local function AECM_fake_script() -- Cat2.DefineCat2 
+	local script = Instance.new('LocalScript', Cat2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainMods.Visible = false
+		script.Parent.Parent.Parent.FunMods.Visible = true
+		script.Parent.Parent.Parent.GrindMods.Visible = false
+		script.Parent.Parent.Parent.Extra.Visible = false
+		script.Parent.Parent.Parent.Credits.Visible = false
+	end)
+end
+coroutine.wrap(AECM_fake_script)()
+local function OLZONW_fake_script() -- Cat3.DefineCat3 
+	local script = Instance.new('LocalScript', Cat3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainMods.Visible = false
+		script.Parent.Parent.Parent.FunMods.Visible = false
+		script.Parent.Parent.Parent.GrindMods.Visible = true
+		script.Parent.Parent.Parent.Extra.Visible = false
+		script.Parent.Parent.Parent.Credits.Visible = false
+	end)
+end
+coroutine.wrap(OLZONW_fake_script)()
+local function EVURP_fake_script() -- Cat4.DefineCat4 
+	local script = Instance.new('LocalScript', Cat4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainMods.Visible = false
+		script.Parent.Parent.Parent.FunMods.Visible = false
+		script.Parent.Parent.Parent.GrindMods.Visible = false
+		script.Parent.Parent.Parent.Extra.Visible = true
+		script.Parent.Parent.Parent.Credits.Visible = false
+	end)
+end
+coroutine.wrap(EVURP_fake_script)()
+local function TEPDMOP_fake_script() -- Cat5.DefineCat5 
+	local script = Instance.new('LocalScript', Cat5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainMods.Visible = false
+		script.Parent.Parent.Parent.FunMods.Visible = false
+		script.Parent.Parent.Parent.GrindMods.Visible = false
+		script.Parent.Parent.Parent.Extra.Visible = false
+		script.Parent.Parent.Parent.Credits.Visible = true
+	end)
+end
+coroutine.wrap(TEPDMOP_fake_script)()
+local function USODO_fake_script() -- Main.Drag 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(USODO_fake_script)()
+local function ZTAB_fake_script() -- UpdateNotes.Drag 
+	local script = Instance.new('LocalScript', UpdateNotes)
+
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(ZTAB_fake_script)()
+local function JIAVYK_fake_script() -- TextButton_46.DefineClose 
+	local script = Instance.new('LocalScript', TextButton_46)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		game.Lighting.Blur.Enabled = false
+		script.Parent.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(JIAVYK_fake_script)()
