@@ -656,7 +656,7 @@ TextButton_24.TextScaled = true
 TextButton_24.TextSize = 14.000
 TextButton_24.TextWrapped = true
 TextButton_24.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet(('https://pastebin.com/raw/Caniwq2N'), true))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 TextButton_25.Parent = FunMods
