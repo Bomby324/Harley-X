@@ -1088,7 +1088,7 @@ TextLabel_20.BorderSizePixel = 0
 TextLabel_20.Position = UDim2.new(0.256505579, 0, 0.202702701, 0)
 TextLabel_20.Size = UDim2.new(0, 262, 0, 45)
 TextLabel_20.Font = Enum.Font.SciFi
-TextLabel_20.Text = "- 6/4/2021: Released"
+TextLabel_20.Text = "- 6/3/2021: Released"
 TextLabel_20.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_20.TextScaled = true
 TextLabel_20.TextSize = 14.000
@@ -1112,7 +1112,7 @@ TextLabel_22.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
 TextLabel_22.Position = UDim2.new(-0.0576208197, 0, -0.0371621624, 0)
 TextLabel_22.Size = UDim2.new(0, 598, 0, 12)
 TextLabel_22.Font = Enum.Font.SciFi
-TextLabel_22.Text = ""
+TextLabel_22.Text = "- 6/3/2021: Updated Admin"
 TextLabel_22.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_22.TextSize = 14.000
 
@@ -1123,7 +1123,7 @@ TextLabel_23.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
 TextLabel_23.Position = UDim2.new(-0.0576208197, 0, 1, 0)
 TextLabel_23.Size = UDim2.new(0, 598, 0, 12)
 TextLabel_23.Font = Enum.Font.SciFi
-TextLabel_23.Text = ""
+TextLabel_23.Text = "- 6/3/2021: Bug Fixes"
 TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_23.TextSize = 14.000
 
