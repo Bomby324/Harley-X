@@ -724,7 +724,7 @@ TextButton_28.TextScaled = true
 TextButton_28.TextSize = 14.000
 TextButton_28.TextWrapped = true
 TextButton_27.MouseButton1Down:Connect(function()
-	game:GetService("Players").LocalPlayer:Kick("Why the heck are you trying to cheat in this game?")
+	game:GetService("Players").LocalPlayer:Kick("Why the fuck are you trying to cheat in this game?")
 end)
 
 
