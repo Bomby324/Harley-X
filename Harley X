@@ -869,11 +869,14 @@ TextButton_37.BorderSizePixel = 0
 TextButton_37.Position = UDim2.new(0.0297029708, 0, 0.186528504, 0)
 TextButton_37.Size = UDim2.new(0, 200, 0, 50)
 TextButton_37.Font = Enum.Font.SciFi
-TextButton_37.Text = "Nothing. ."
+TextButton_37.Text = "Trap Rifle"
 TextButton_37.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_37.TextScaled = true
 TextButton_37.TextSize = 14.000
 TextButton_37.TextWrapped = true
+TextButton_41.MouseButton1Down:Connect(function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/9f0QegyZ"))()
+end)
 
 TextButton_38.Parent = Extra
 TextButton_38.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
@@ -925,14 +928,11 @@ TextButton_41.BorderSizePixel = 0
 TextButton_41.Position = UDim2.new(0.46336633, 0, 0.101036265, 0)
 TextButton_41.Size = UDim2.new(0, 200, 0, 50)
 TextButton_41.Font = Enum.Font.SciFi
-TextButton_41.Text = "Trap Rifle"
+TextButton_41.Text = "Nothing. ."
 TextButton_41.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_41.TextScaled = true
 TextButton_41.TextSize = 14.000
 TextButton_41.TextWrapped = true
-TextButton_41.MouseButton1Down:Connect(function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/9f0QegyZ"))()
-end)
 
 TextButton_42.Parent = Extra
 TextButton_42.BackgroundColor3 = Color3.fromRGB(206, 68, 71)
